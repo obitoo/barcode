@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Barcode3Activity</string>
+    <string name="app_name">Barcode3</string>
+	<string name="pref1_title">Run in debug mode</string>
+	<string name="pref1_summary">Useful if ZXing is not installed</string>
+    <string name="settings_title">Settings</string>
+    <string name="info_title">Info</string>
+    <string name="settings_label" >Settings...</string>
+    <string name="settings_shortcut">Settings shortcut</string> 
+    <string name="info_shortcut" >Info shortcut</string>
+    <string name="about_string"> Make money with your phone!   Got a big Pile of old paperbacks? </string>
+    
+</resources>

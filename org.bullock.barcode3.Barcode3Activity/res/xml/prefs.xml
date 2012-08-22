@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <CheckBoxPreference
+		android:defaultValue="false"
+		android:key="debug" 
+		android:persistent="true" 
+		android:title="@string/pref1_title"
+		android:summary="@string/pref1_summary"/>
+
+<EditTextPreference 
+   android:dialogTitle="IP Address" 
+   android:title="Server Address" 
+   android:summary="IP Address of Owen's house"  android:defaultValue="82.69.65.202" 
+   android:key="ipaddr" 
+   android:inputType="phone"
+   android:negativeButtonText="Cancel" android:positiveButtonText="Ok" android:persistent="true" 
+   android:dialogIcon="@drawable/barcode" 
+   android:dialogMessage="eg 82.69.65.202\n">
+   </EditTextPreference>
+
+</PreferenceScreen> 
